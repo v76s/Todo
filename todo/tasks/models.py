@@ -3,11 +3,15 @@ from django.forms import ModelForm
 from django import forms
 
 PRIORITIES = (
-        ('adanger', 'Priority Highest'),
+        ('adanger', 'Priority High'),
         ('bwarning', 'Priority Medium'),
         ('csuccess', 'Priority Low')
+        More details that I want
+         ('adanger', 'Priority High-ismail'),
+         ('adanger', 'Priority Highest'),
     )
-Modify fthis file
+# Modify this file.
+
 # Create your models here.
 class Username(models.Model):
     username = models.CharField(max_length=50, unique=True)
