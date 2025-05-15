@@ -3,7 +3,7 @@ from django.forms import ModelForm
 from django import forms
 
 PRIORITIES = (
-        ('adanger', 'Priority High'),
+        ('adanger', 'Priority High ismail'),
         ('bwarning', 'Priority Medium'),
         ('csuccess', 'Priority Low')
         More details that I want
